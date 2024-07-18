@@ -10,7 +10,7 @@ import java.util.List;
 public class Confectionery {
 
     private static final Logger logger = LogManager.getLogger(Confectionery.class);
-    private static final Path PATH = Path.of("C:/Users/User/Desktop/Confectionery1/Confectionery/src/main/resources/orders.txt");
+    private static final Path PATH = Path.of("C:/Users/User/Desktop/Confectionery1/Confectionery/app/src/main/resources/orders.txt");
     private final ConfectioneryService confectioneryService;
     private final List<Order> orderList;
 
